@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Go Green - Home</title>
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+        }
+        #headdiv{
+            height: 150px;
+            width: 1337px;
+            background-color: rgb(0, 167, 0);
+            color: white;
+        }
+        #title{
+            padding-top: 30px;
+            font-size: 60px;
+        }
+        #nav{
+            height: 50px;
+            width: 1337px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 70px;
+            
+        }
+        .navbut{
+            background-color: rgb(221, 221, 221);
+            padding-top: 23px;
+            font-size: 15px;
+            text-align: center;
+        }
+        .navbut:hover{
+            color: whitesmoke;
+        }
+        #ENVIRbut:hover{
+            background-color: green;
+        }
+        #WATERbut:hover{
+            background-color: rgb(0, 167, 167);
+        }
+        #CLIMATbut:hover{
+            background-color: rgb(100, 198, 236);
+        }
+        #GREENbut:hover{
+            background-color: rgb(243, 0, 0);
+            text-decoration: whitesmoke;
+        }
+        .navtext:hover{
+            color: whitesmoke;
+        }
+        .navtext{
+            color: black;
+            text-decoration: black;
+        }
+        #pic{
+            background-image:url("green\ pic\ 1.jpg") ;
+            height: 700px;
+            width: 1337px;
+        }
+        .headings{
+            color: rgb(0, 167, 0);
+        }
+        #selgrid{
+            height: fit-content;
+            width: fit-content;
+            display: grid;
+            grid-template-columns: 320px 320px 320px 320px;
+            grid-template-rows: 212px;
+            grid-column-gap: 20px;
+        }
+        #ahead{
+            color: whitesmoke;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="headdiv">
+        <a id="ahead" href="index.html"><h1 id="title">Go Green</h1></a>
+    </div>
+    <section id="nav">
+        <div id="ENVIRbut" class="navbut"><a class="navtext" href="Environment.html">ENVIRONMENT</a></div>
+        <div id="WATERbut" class="navbut"><a class="navtext" href="Water.html">WATER</a></div>
+        <div id="CLIMATbut" class="navbut"><a class="navtext" href="Climate change.html">CLIMATE CHANGE</a></div>
+        <div id="GREENbut" class="navbut"><a class="navtext" href="Green life.html">GREEN LIFE</a></div>
+    </section>
+    <div id="pic">
+        <h2 style="color: whitesmoke; padding-left: 350px; padding-top: 300px;">Make our home a greener and better place.</h2>
+    </div>
+    <br/>
+    <hr>
+    <h2 class="headings">WHY?</h2>
+    <p>I have made this website to inform people how important it is to protect our home and the environment. We give good and helpful tips that will make our Earth a better place. We will give you tips to  save water, clear our ozone by climate change and global warming tips and to have a healthy and green life...</p>
+    <section id="selgrid">
+        <a href="Water.html"><div class="sel" style="background-image: url('Water_drop_001.jpg'); padding-left: 10px; padding-top: 160px; color: whitesmoke;"><h3 style="text-decoration: whitesmoke;">WATER REUSE TECHNIQUES</h3></div></a>
+        <a href="Environment.html"><div class="sel" style="background-image: url('carbon-emission.jpg'); padding-left: 10px; padding-top: 126px; color: whitesmoke;"><h3 style="text-decoration: whitesmoke;">WHY DOES CO₂ CAUSE THE GREENHOUSE EFFECT?</h3></div></a>
+        <a href="Climate change.html"><div class="sel" style="background-image: url('climate\ change.jpg'); padding-left: 10px; padding-top: 126px; color: black;"><h3 style="text-decoration: black;">6 ACTIONS TO FIGHT CLIMATE CHANGE</h3></div></a>
+        <a href="Green life.html"><div class="sel" style="background-image: url('paper\ image.jpg'); padding-left: 10px; padding-top: 160px; color: whitesmoke; text-decoration: whitesmoke;"><h3>HOW CAN I GO PAPERLESS?</h3></div></a>
+    </section>
+</body>
+</html>
